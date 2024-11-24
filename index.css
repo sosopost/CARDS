@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-name {
+    font-size: 1rem;
+  }
+  
+  .menu {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card1 {
+    background: white;
+    border: solid 5px gray;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card2 {
+    background: white;
+    border: solid 5px gray;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card3 {
+    background: white;
+    border: solid 5px gray;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+  }
+  
+  .card1 h3 {
+    color: darkorange;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .card2 h3 {
+    color: gray;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+
+  .card3 h3 {
+    color: blue;
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: black;
+  }
+  
+  button {
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
+  
